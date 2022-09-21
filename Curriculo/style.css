@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  background: #9ecbf8;
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  /* background-color: red; */
+  padding-left: 1rem;
+  margin-bottom: 0.8rem;
+  display: grid;
+}
+
+p {
+  font: 400 1em/1.3rem 'Poppins', sans-serif;
+}
+
+h4,
+h5 {
+  font-family: 'Poppins', sans-serif;
+}
+
+h3 {
+  font: 200 1.9rem / 3rem 'Poppins', sans-serif;
+}
+
+#page {
+  width: 49.625rem;
+  height: 70.1875rem;
+  background: #ffffff;
+  display: flex;
+}
+
+#first section {
+  width: 18rem;
+  padding-left: 2rem;
+}
+
+#name {
+  background: #34acfc;
+  height: 12rem;
+  padding: 6.2rem 0;
+  color: #f0f8ff;
+}
+
+#name .name {
+  font: 400 3rem /2.8rem 'Petrona', sans-serif;
+}
+
+#name .job {
+  padding: 0.4rem 0;
+  font: 200 2rem/2rem 'Poppins', sans-serif;
+}
+
+#contato a {
+  font: 400 1rem/2rem 'Poppins', sans-serif;
+}
+
+#about p {
+  width: 15.5rem;
+  text-align: justify;
+}
+
+#skills ul {
+  list-style: disc;
+  list-style-position: inside;
+  font: 400 1rem 'Poppins', sans-serif;
+}
+#experiences {
+  margin: 2rem 0;
+}
+
+h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0.1rem 0;
+}
+h5 {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 0.6rem;
+}
+#experiences p {
+  margin-bottom: 0.6rem;
+  width: 26.25rem;
+}
+
+#formation {
+  margin: 2.5rem 0;
+}
